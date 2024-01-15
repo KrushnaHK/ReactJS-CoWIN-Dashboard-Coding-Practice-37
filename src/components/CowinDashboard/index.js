@@ -38,7 +38,7 @@ class CowinDashboard extends Component {
       const updatedData = {
         last7DaysVaccination: fetchedData.last_7_days_vaccination.map(
           eachDayData => ({
-            vaccineDate: eachDayData.vaccination_date,
+            vaccineDate: eachDayData.vaccine_date,
             dose1: eachDayData.dose_1,
             dose2: eachDayData.dose_2,
           }),
